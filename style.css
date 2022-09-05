@@ -1,0 +1,40 @@
+
+body  {
+    font-family: "Krona One", sans-serif;
+}
+
+.active {
+    border-bottom: 1px solid #000;
+}
+
+
+.fs-sm {
+
+    
+    font-size: 14px;
+}
+
+.fs-big {
+    font-size: 144px;
+    color:#2B2C32;
+}
+
+.title {
+    z-index: 555555;
+}
+
+.home-banner img {
+    margin-top: 70px;
+    z-index: -999;
+}
+
+
+@media (max-width:768px) {
+    
+  .fs-big {
+    font-size: 84px;
+    color:#2B2C32;
+}
+
+
+}
